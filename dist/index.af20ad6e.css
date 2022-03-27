@@ -1,0 +1,28 @@
+:root {
+  --lightwhite: #f5f5f1;
+  --white: #ffffff;
+  --bebas: "Bebas Neue", monospace;
+  --specialred: #e50914;
+  --darkgray: #221f1f;
+  --lightgray: #696868;
+}
+
+body {
+  background-color: var(--lightwhite);
+  font-family: var(--bebas);
+}
+
+@media (min-width: 768px) {
+  .search-input input {
+    font-size: 1.75rem;
+    line-height: 40px;
+    padding: 19px 16px;
+  }
+
+  .search-input .fa-magnifying-glass {
+    top: 0;
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=index.af20ad6e.css.map */
